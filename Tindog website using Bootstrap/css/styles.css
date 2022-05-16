@@ -1,19 +1,26 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
-    
+
 }
-h1{
-    font-family:'Montserrat-700', sans-serif;
+
+h1 {
+    font-family: 'Montserrat-Bold', sans-serif;
     /* font-size:4rem; */
-    line-height:1.5;
-}   
-
-h3{
-    font-family: 'Montserrat-bold', sans-serif;
+    line-height: 1.5;
 }
 
-#features{
-    padding: 5% 15%;
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+#features {
+    padding: 5% 5%;
     font-weight: bold;
 }
 
@@ -21,21 +28,43 @@ h3{
     background-color: #ff4c68;
     color: #fff;
 }
-.feature-div{
+
+#testimonials {
+    background-color: #ef8172;
+    color: #FFF;
+    padding: 5% 17%;
+    text-align: center;
+}
+#press{
+    background-color: #ef8172;
+    color: #FFF;
+    padding: 7% 7%;
+    text-align: center;
+}
+.testi-img{
+    width: 20%;
+    border-radius: 100%;
+    padding: 20px 5px;
+}
+
+.feature-div {
     text-align: center;
     padding: 5%;
 }
-
-.container-fluid{
-    padding:3% 10%;   
+.press-img{
+    width:20%;
+    padding: 20px 10px
+}
+.container-fluid {
+    padding: 3% 10%;
 }
 
 /* NavBar */
-.navbar{
+.navbar {
     padding-bottom: 4.5rem;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 2.5rem;
     font-weight: bold;
     font-family: 'Ubuntu';
@@ -45,17 +74,30 @@ h3{
     padding: 0 18px;
 }
 
-.nav-link{
+.nav-link {
     font-size: 1.2rem;
     font-family: 'Montserrat';
 }
 
 /* Download Buttons */
-.download-button{
+.download-button {
     margin: 5% 3% 5% 0;
 }
 
-.title-img{
+.title-img {
     width: 45%;
     transform: rotate(20deg);
+}
+
+.p-light-wt {
+    color: rgb(115, 114, 119);
+}
+
+.icon-fav {
+    margin-bottom: 1.1rem;
+    color: #ef8172;
+}
+
+.icon-fav:hover {
+    color: #ff4c68;
 }
