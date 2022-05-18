@@ -44,6 +44,18 @@ h3 {
     padding-bottom: 3%;
     text-align: center;
 }
+
+#pricing{
+    padding: 5% 5%;
+    text-align: center;
+}
+
+#cta{
+    text-align: center;
+}
+#footer{
+    text-align: center;
+}
 .testi-img{
     width: 10%;
     border-radius: 100%;
@@ -62,6 +74,10 @@ h3 {
 }
 .container-fluid {
     padding: 3% 10%;
+}
+
+.pricing-column{
+    padding:3% 2%;
 }
 
 /* NavBar */
