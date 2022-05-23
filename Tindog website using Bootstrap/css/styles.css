@@ -5,9 +5,9 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    /* font-size:4rem; */
+    font-size:4rem;
     line-height: 1.5;
-    font-weight: 700;
+    font-weight: 750;
 }
 
 h2{
@@ -24,8 +24,11 @@ h3 {
 }
 
 #features {
-    padding: 5% 5%;
+    padding: 7% 15%;
     font-weight: bold;
+    background-color: #FFF;
+    position: relative;
+    z-index: 1;
 }
 
 #title {
@@ -46,7 +49,7 @@ h3 {
 }
 
 #pricing{
-    padding: 5% 5%;
+    padding: 7% 15%;
     text-align: center;
 }
 
@@ -73,7 +76,7 @@ h3 {
     padding: 20px 20px 50px;
 }
 .container-fluid {
-    padding: 3% 10%;
+    padding: 3% 15%;
 }
 
 .pricing-column{
@@ -86,7 +89,7 @@ h3 {
 }
 
 .navbar-brand {
-    font-size: 2.5rem;
+    font-size: 3.0rem;
     font-weight: bold;
     font-family: 'Ubuntu';
 }
@@ -96,7 +99,7 @@ h3 {
 }
 
 .nav-link {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-family: 'Montserrat';
 }
 
@@ -106,8 +109,10 @@ h3 {
 }
 
 .title-img {
-    width: 45%;
+    width: 20%;
     transform: rotate(20deg);
+    position: absolute;
+    
 }
 
 .p-light-wt {
@@ -121,4 +126,10 @@ h3 {
 
 .icon-fav:hover {
     color: #ff4c68;
+}
+
+@media (max-width:1111px) {
+    .title-img{
+        position: static;
+    }
 }
