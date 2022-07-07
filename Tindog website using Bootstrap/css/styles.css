@@ -1,4 +1,4 @@
-body {
+ body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
@@ -15,6 +15,15 @@ h2{
     font-size: 3.0rem;
 }
 
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    color: #000;
+    background-color: #FFF;
+}
 
 /* Heading */
 
@@ -31,6 +40,8 @@ h2{
     line-height: 1.5;
     font-weight: 700;
 }
+
+/* Feature Section */
 
 #features {
     padding: 7% 15%;
@@ -56,15 +67,14 @@ h2{
     line-height: 1.5;
 }
 
+/* IDs  */
+
 #title {
-    background-color: #ff4c68;
-    color: #fff;
 }
 
 #testimonials {
     background-color: #ef8172;
-    color: #FFF;
-}
+ }
 
 .testimonial-text{
     padding: 4% 12%;
@@ -82,15 +92,31 @@ h2{
   padding: 5% 7%;
 }
 
+/* Pricing Section */
+
 #press{
     background-color: #ef8172;
-    color: #FFF;
     padding-bottom: 3%;
 }
 
 #pricing{
     padding: 7% 15%;
 }
+
+#footer{
+    /* color: #FFF; */
+    padding: 7% 15% 4%;
+    /* background-color: #ff4c68; */
+}
+
+#cta{
+    text-align: center;
+    /* color: #FFF;
+    background-color:#ff4c68; */
+    padding: 7% 15% 4%;
+}
+
+
 
 .price-text{
     padding: 4% 12%;
@@ -99,19 +125,6 @@ h2{
     font-size: 2.5rem;
 }
 
-#cta{
-    text-align: center;
-    color: #FFF;
-    background-color:#ff4c68;
-    padding: 7% 15% 4%;
-}
-
-#footer{
-    /* color: #FFF; */
-    padding: 7% 15% 4%;
-    /* background-color: #ff4c68; */
-    
-}
 .cta-headline{
     font-size: 3.5rem;
     line-height: 1.5;
