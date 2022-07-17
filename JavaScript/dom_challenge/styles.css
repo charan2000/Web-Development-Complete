@@ -1,0 +1,15 @@
+h1 {
+  color: red;
+}
+
+a{
+  text-decoration: none;
+  color: purple;
+  font-size: x-large;
+}
+
+.largeText{
+  font-size: 5rem;
+  color: purple;
+  text-align: center;
+}
